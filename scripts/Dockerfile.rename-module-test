@@ -1,0 +1,11 @@
+# This dockerfile is used to support quick testing of the rename functonality.
+#   docker build --no-cache -t test-rename-module -f Dockerfile.rename-module-test .
+#   docker run -it test-rename-module
+FROM node:18-buster
+
+RUN git clone https://github.com/dwmkerr/template-nodejs-module.git
+WORKDIR ./template-nodejs-module
+RUN GITHUB_USERNAME=test_user PROJECT_NAME=test_project make rename-template
+RUN npm install
+RUN ls
+CMD npm run start:debug

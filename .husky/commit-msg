@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Lint the commit message using conventional commit configuration.
+npx --no-install -- commitlint --edit "$1" --extends '@commitlint/config-conventional'
