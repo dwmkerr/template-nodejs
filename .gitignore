@@ -1,0 +1,11 @@
+# Unwanted MacOS files.
+.DS_Store
+
+# Dependency directories
+node_modules
+
+# Artifacts, such as coverage and test reports.
+artifacts/
+
+# Logs
+npm-debug.log*

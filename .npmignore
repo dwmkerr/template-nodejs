@@ -1,0 +1,14 @@
+# Unwanted OSX files.
+.DS_Store
+
+# Logs
+npm-debug.log*
+
+# Tests
+**/*.test.js
+
+# Dependency directories
+node_modules
+artifacts/
+coverage//
+.nyc_output/
