@@ -1,4 +1,7 @@
 # template-nodejs-module
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Release Please](https://github.com/dwmkerr/template-nodejs-module/actions/workflows/release-please.yaml/badge.svg)](https://github.com/dwmkerr/template-nodejs/actions/workflows/release-please.yaml)
 [![codecov](https://codecov.io/gh/dwmkerr/template-nodejs-module/branch/main/graph/badge.svg?token=OHwYIrcgEt)](https://codecov.io/gh/dwmkerr/template-nodejs)
@@ -224,6 +227,23 @@ git commit --allow-empty -m "chore: release ${version}" -m "Release-As: ${versio
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="http://www.dwmkerr.com"><img src="https://avatars.githubusercontent.com/u/1926984?v=4?s=100" width="100px;" alt="Dave Kerr"/><br /><sub><b>Dave Kerr</b></sub></a><br /><a href="https://github.com/dwmkerr/template-nodejs-module/commits?author=dwmkerr" title="Documentation">📖</a> <a href="https://github.com/dwmkerr/template-nodejs-module/commits?author=dwmkerr" title="Code">💻</a> <a href="#projectManagement-dwmkerr" title="Project Management">📆</a></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    
+  </tfoot>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
