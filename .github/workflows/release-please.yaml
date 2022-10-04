@@ -125,7 +125,7 @@ jobs:
             exit 1
           else
             echo "The 'NPM_TOKEN' secret has been set - deploying to NPM..."
-            npm publish
+            npm publish --access=public
           fi
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
