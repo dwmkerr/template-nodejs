@@ -1,12 +1,11 @@
 # template-nodejs-module
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Release Please](https://github.com/dwmkerr/template-nodejs-module/actions/workflows/release-please.yaml/badge.svg)](https://github.com/dwmkerr/template-nodejs/actions/workflows/release-please.yaml)
 [![codecov](https://codecov.io/gh/dwmkerr/template-nodejs-module/branch/main/graph/badge.svg?token=OHwYIrcgEt)](https://codecov.io/gh/dwmkerr/template-nodejs)
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
 [![NPM Package Version](https://img.shields.io/npm/v/dwmkerr/template-nodejs-module)](https://www.npmjs.com/package/@dwmkerr/template-nodejs-module)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A template for a Node.js module that has basic standards for linting, testing, build pipelines, NPM deployment, documentation and contributors. Contains rich documentation, and a [Template Guide](#template-guide) with instructions on how to customise for your own use.
 
@@ -199,6 +198,8 @@ When a [Release Please]() pull request is merged to main, the [Release Please Wo
 - Deploy to NPM if the `NPM_TOKEN` secret is set
 
 Each stage is run on all recent Node versions, except for the 'upload coverage' stage which only runs for the Node.js LTS version.
+
+⚠️ note that the NPM Publish step sets the package to public - don't forget to change this if you have a private module.
 
 ### Adding Contributors
 
