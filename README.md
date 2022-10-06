@@ -3,9 +3,7 @@
 [![Release Please](https://github.com/dwmkerr/template-nodejs-module/actions/workflows/release-please.yaml/badge.svg)](https://github.com/dwmkerr/template-nodejs/actions/workflows/release-please.yaml)
 [![codecov](https://codecov.io/gh/dwmkerr/template-nodejs-module/branch/main/graph/badge.svg?token=OHwYIrcgEt)](https://codecov.io/gh/dwmkerr/template-nodejs)
 [![NPM Package Version](https://img.shields.io/npm/v/@dwmkerr/template-nodejs-module)](https://www.npmjs.com/package/@dwmkerr/template-nodejs-module)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![All Contributors](https://img.shields.io/github/all-contributors/dwmkerr/template-nodejs-module)](#contributors)
 
 A template for a Node.js module that has basic standards for linting, testing, build pipelines, NPM deployment, documentation and contributors. Contains rich documentation, and a [Template Guide](#template-guide) with instructions on how to customise for your own use.
 
