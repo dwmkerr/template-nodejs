@@ -42,6 +42,8 @@ A template for a Node.js module that has basic standards for linting, testing, b
 
 ## Template Quickstart
 
+ℹ️ **Note** this section of the documentation can be deleted when you have customised the project to your liking!
+
 Clone the code to your machine, rename the template to match your GitHub username and provide a module name, then build and you are good to go!
 
 ```bash
@@ -185,11 +187,11 @@ Whenever a pull request is raised, the [Pull Request Workflow](./.github/workflo
 - Run Tests
 - Upload Coverage
 
-Each stage is run on all recent Node versions, except for the 'upload coverage' stage which only runs for the Node.js LTS version. When a pull request is merged to the `main` branch, if the changes trigger a new release, then [Release Please](TODO) will open a Release Pull Request. When this request is merged, the [Release Pipeline](#release-pipeline) is run.
+Each stage is run on all recent Node versions, except for the 'upload coverage' stage which only runs for the Node.js LTS version. When a pull request is merged to the `main` branch, if the changes trigger a new release, then [Release Please](https://github.com/google-github-actions/release-please-action) will open a Release Pull Request. When this request is merged, the [Release Pipeline](#release-pipeline) is run.
 
 #### Release Pipeline
 
-When a [Release Please]() pull request is merged to main, the [Release Please Workflow](./.github/workflows/release-please) is run. This will:
+When a [Release Please](https://github.com/google-github-actions/release-please-action) pull request is merged to main, the [Release Please Workflow](./.github/workflows/release-please) is run. This will:
 
 - Install dependencies
 - Lint
