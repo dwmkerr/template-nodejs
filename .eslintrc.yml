@@ -1,14 +1,13 @@
-extends:
-  - eslint:recommended
-  - plugin:node/recommended
-  - plugin:jest/recommended
 env:
   node: true
-  mocha: true
   jest/globals: true
 plugins:
   - import
   - jest
+extends:
+  - eslint:recommended
+  - plugin:node/recommended
+  - plugin:jest/recommended
 rules:
   no-console: 0
   # Sometimes I like a single 'return' statement in a full bloc, e.g. see the
