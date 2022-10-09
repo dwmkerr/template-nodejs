@@ -79,4 +79,5 @@ sed -e "s/# ${template_project_name}/# ${project_name}/" \
     ./README.md.old > ./README.md
 rm README.md.old
 
-echo "Rename completed successfully."
+echo "Rename completed successfully. Cleaning up 'scripts' folder."
+rm -rf ./scripts
