@@ -45,11 +45,17 @@ A template for a Node.js module that has basic standards for linting, testing, b
 Clone the code to your machine, rename the template to match your GitHub username and provide a module name, then build and you are good to go!
 
 ```bash
+# Clone the template repository.
 git clone git@github.com:dwmkerr/template-nodejs-module
-make rename-template # will ask you for your github username and project name
+
+# Move to the repo folder. Rename this folder if you like. Then rename the
+# the project.
+cd template-nodejs-module
+make rename-template
+
+# Install dependencies and start coding.
 npm install
 npm start
-rm -rf ./scripts     # remove unneeded template scripts
 ```
 
 Then follow the [Template Guide](#template-guide) for more instructions on how to customised the template to your needs. Once that's done, this quickstart section and the template guide section can be safely deleted from the README.
